@@ -1,0 +1,23 @@
+{
+  "name": "Toggle Pin Tab",
+  "version": "1.0.3",
+  "description": "Press Alt+P to toggle the pin stat of the current tab",
+  "homepage_url": "https://github.com/andreicristianpetcu/toggle-pin-tab",
+  "author": "Andrei Petcu",
+  "version": "1.0.0",
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "commands": {
+    "toggle-pin-tab": {
+      "suggested_key": { "default": "Alt+P" },
+      "description": "Toogle the pin stat of the current tab"
+    }
+  },
+  "applications": {
+    "gecko": {
+      "id": "{0ccbb198-ca03-4b1c-bc9c-cd0de758239d}"
+    }
+  },
+  "manifest_version": 2
+}
