@@ -1,6 +1,5 @@
 {
     "name": "Toggle Pin Tab",
-    "version": "1.0.3",
     "description": "Press Alt+P to toggle the pin stat of the current tab",
     "homepage_url": "https://github.com/andreicristianpetcu/toggle-pin-tab",
     "author": "Andrei Petcu",
